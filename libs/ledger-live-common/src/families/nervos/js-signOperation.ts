@@ -71,7 +71,7 @@ export const signOperation = ({
             wit && typeof wit != "string" ? wit : EMPTY_WITNESS_ARGS;
           return {
             witnessArgs,
-            lockHash: scriptToHash(previousOutput.lock),
+            lockHash: scriptToHash(lock),
             serializedWitness: "",
             lock,
           };

@@ -6,11 +6,7 @@ export const acceptTransaction: DeviceAction<Transaction, any> =
   deviceActionFlow({
     steps: [
       {
-        title: "Confirm (1/2)",
-        button: "Rr",
-      },
-      {
-        title: "Confirm (2/2)",
+        title: "Confirm",
         button: "Rr",
       },
       {
@@ -18,15 +14,7 @@ export const acceptTransaction: DeviceAction<Transaction, any> =
         button: "Rr",
       },
       {
-        title: "Source (1/3)",
-        button: "Rr",
-      },
-      {
-        title: "Source (2/3)",
-        button: "Rr",
-      },
-      {
-        title: "Source (3/3)",
+        title: "Source",
         button: "Rr",
       },
       {
@@ -38,15 +26,7 @@ export const acceptTransaction: DeviceAction<Transaction, any> =
         button: "Rr",
       },
       {
-        title: "Destination (1/3)",
-        button: "Rr",
-      },
-      {
-        title: "Destination (2/3)",
-        button: "Rr",
-      },
-      {
-        title: "Destination (3/3)",
+        title: "Destination",
         button: "Rr",
       },
       {
